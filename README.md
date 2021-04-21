@@ -1,0 +1,2 @@
+# WeChat_QRCode_OpenCV
+WeChat_QRCode_OpenCV test
