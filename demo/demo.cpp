@@ -7,7 +7,6 @@
 using namespace std; 
 using namespace cv; 
 
-
 int main(int argc, char** argv) {
     string input_path;
     string output_path;
