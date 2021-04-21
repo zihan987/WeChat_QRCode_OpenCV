@@ -28,7 +28,7 @@ int main(int argc, char** argv) {
         return -1;
     }
     
-    //修改路径，模型文件下载链接看readme
+    //修改路径，模型文件在models中
     Ptr<wechat_qrcode::WeChatQRCode> detector;
     string detect_prototxt = "Your Path/detect.prototxt";
     string detect_caffe_model = "Your Path/detect.caffemodel";
