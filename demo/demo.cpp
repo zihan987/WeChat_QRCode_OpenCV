@@ -31,10 +31,10 @@ int main(int argc, char** argv) {
     
     //修改路径，模型文件下载链接看readme
     Ptr<wechat_qrcode::WeChatQRCode> detector;
-    string detect_prototxt = "/home/pi/Desktop/wechat_QRCode/models/detect.prototxt";
-    string detect_caffe_model = "/home/pi/Desktop/wechat_QRCode/models/detect.caffemodel";
-    string sr_prototxt = "/home/pi/Desktop/wechat_QRCode/models/sr.prototxt";
-    string sr_caffe_model = "/home/pi/Desktop/wechat_QRCode/models/sr.caffemodel";
+    string detect_prototxt = "Your Path/detect.prototxt";
+    string detect_caffe_model = "Your Path/detect.caffemodel";
+    string sr_prototxt = "Your Path/sr.prototxt";
+    string sr_caffe_model = "Your Path/sr.caffemodel";
     detector = makePtr<wechat_qrcode::WeChatQRCode>(detect_prototxt, detect_caffe_model, sr_prototxt, sr_caffe_model);
 
     vector<Mat> Pt;
